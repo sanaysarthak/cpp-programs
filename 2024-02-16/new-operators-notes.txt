@@ -1,0 +1,8 @@
+::        scope resolution operator
+::*       pointer to member declarator
+->*       pointer to member operator (used to access pointer to class members)
+.*        used to access pointer to data members of class
+new       memory allocation operator (allocates memory at runtime)
+delete
+endl
+setw      field width operator (it is a manipulator, and causes a linefeed to be inserted)
