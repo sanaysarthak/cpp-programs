@@ -1,5 +1,5 @@
 // Write a C++ program to create class Car having data members Company and Top_speed
-// Create member functions SetData() and DisplayData() and create two objects od class Car
+// Create member functions SetData() and DisplayData() and create two objects of class Car
 
 #include <iostream>
 using namespace std;
@@ -17,7 +17,15 @@ class car {
         }
         void displayData() {
             cout << "\nCompany: " << company;
-            cout << "\nTop Speed: " << top_speed;
+            cout << "\nTop Speed: " << top_speed << endl << "\n";
         }
 };
 
+int main() {
+    car c1, c2;
+    c1.setData();
+    c1.displayData();
+    c2.setData();
+    c2.displayData();
+    return 0;
+}
