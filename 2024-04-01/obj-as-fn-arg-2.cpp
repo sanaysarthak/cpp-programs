@@ -30,9 +30,9 @@ int main() {
 	c1.set_data();
 	c2.set_data();
     
-    c3.addComplexNos(c1, c2);
-    cout << "\nAfter adding two objects:-" << endl;
-    c3.displaySum();
+    	c3.addComplexNos(c1, c2);
+    	cout << "\nAfter adding two objects:-" << endl;
+    	c3.displaySum();
 
 	return 0;
 }
