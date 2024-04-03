@@ -1,6 +1,7 @@
 // static keyword is used as prefix
 // it is initialized with 0
 // its scoping is for the entire program, just like a global variable
+// declare the static variable within the class, but define it outside the class
 
 #include <iostream>
 using namespace std;
