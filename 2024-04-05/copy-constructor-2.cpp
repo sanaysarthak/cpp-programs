@@ -1,5 +1,6 @@
 // Create a simple class Person that that represents individuals with a name, age, and occupation. we'll include constructors to initialize these attributes, a copy constructor to duplicate a person. 
 // To do later: Add a destructor to perform cleanup operation when a Person object is deleted.
+// Destrucor part added here : https://github.com/sanaysarthak/cpp-self/blob/main/Self%20Learning/Miscellaneous/destructor.cpp
 
 #include <iostream>
 #include <string>
