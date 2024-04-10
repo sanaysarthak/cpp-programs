@@ -12,6 +12,7 @@ class Rectangle {
 			int length = 0;
 			int width = 0;
 			cout << "Default Constructor." << endl;
+			cout << length << "\t" << width << "\n" << endl;
 		}
 
 		// Parametrized Constructor
@@ -19,7 +20,7 @@ class Rectangle {
 			int length = x;
 			int width = y;
 			cout << "Parametrized Constructor." << endl;
-
+			cout << length << "\t" << width << "\n" << endl;
 		}
 
 		// Copy Constructor
@@ -27,14 +28,15 @@ class Rectangle {
 			int length = r.length;
 			int width = r.width;
 			cout << "Copy Constructor." << endl;
+			cout << length << "\t" << width << "\n" << endl;
 		}
-
+		
 };
 
 int main() {
 	Rectangle r1;
 	Rectangle r2(5,6);
 	Rectangle r3(r1);
-	Rectangle r4 = r1; // another way of passing the object r1 in r4
+	Rectangle r4 = r1;
 	return 0;
 }
