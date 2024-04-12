@@ -7,11 +7,14 @@ class Rectangle {
 		double width;
 
 	public:
-		Rectangle(double l = 0, double w = 0) {} // Default constructor
+		// Rectangle(double l = 0, double w = 0) {} // Default constructor
+		Rectangle(double l = 0, double w = 0) : length(l), width(w) {} // Default constructor with default initialization
+
 		void setDimensions(double l, double w) {
 			length = l;
 			width = w;
 		}
+
 		double area() const {
 			return length * width;
 		}
