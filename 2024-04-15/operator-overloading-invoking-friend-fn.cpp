@@ -16,6 +16,7 @@ class Complex {
 		friend Complex operator +(Complex c1, Complex c2);
 };
 
+// friend function (not a method of the class)
 Complex operator +(Complex c1, Complex c2) {
 	Complex temp;
 	temp.real = c1.real + c2.real;
