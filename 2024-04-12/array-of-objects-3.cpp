@@ -1,4 +1,6 @@
-// Implement a C++ class called BankAccount with private data members balance and accountNumber. Create a friend function named transferFunds outside the class, which takes two BankAccount objects as parameters and transfers a specified account from one account to another, updating their balances accordingly.
+// My solution
+/* Implement a C++ class called BankAccount with private data members balance and accountNumber. Create a friend function named transferFunds outside the class, 
+which takes two BankAccount objects as parameters and transfers a specified account from one account to another, updating their balances accordingly. */
 
 #include <iostream>
 #include <string>
