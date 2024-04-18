@@ -1,3 +1,5 @@
+// My solution (used array of objects)
+
 /* Create a C++ class Student with private data members name, rollNumber, and grade. 
 Implement public member functions setData() to set thte data members, displayData() to display the data members, and calculateGrade() to calculate the grade based on marks obtained. 
 Ensure that name and rollNumber are private while grade is public. */
