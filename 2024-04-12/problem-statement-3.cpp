@@ -1,4 +1,4 @@
-// my soln - not working
+// My solution (Not working)
 
 /* You are tasked with developing a student management system for a school.
 The system should allow users to perform various operations such as adding new students, updating student information, deleting student records, and displaying student details.
