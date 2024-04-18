@@ -1,3 +1,10 @@
+// Sir's solution
+
+/* You are tasked with developing a student management system for a school.
+The system should allow users to perform various operations such as adding new students, updating student information, deleting student records, and displaying student details.
+Each student record should contain the student's name, roll number, and marks obtained in different subjects. The system should also calculate the percentage of each student based on their marks.
+Additionally, the system should keep track of the total number of student records stored in the system. Implement the system using object-oriented programming concepts in C++. */
+
 #include <iostream>
 #include <string>
 using namespace std;
