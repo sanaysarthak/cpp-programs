@@ -1,4 +1,4 @@
-// Overloading Prefix and Postfix operators
+// Overloading Pre and post increment/decrement operators
 // Using the unary operator ++
 
 #include <iostream>
