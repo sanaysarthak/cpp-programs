@@ -1,10 +1,10 @@
-base class is also known as derived class or super-class
-derived class 
-
 inheritance is the process, by which a class can acquire(reuse) the properties and methods of the parent class
-difference between access modifier is important
+    
+base class is also known as parent class or super-class
+derived class is also known as child class or sub-class
 
-in exam, types of inheritance can be asked, with diagram
+difference between access modifier is important
+in exam, question on different types of inheritance can be asked, answer with diagram and code.
 
 /* Syntax:
 class derived-class-name : access-modifier base-class-name
