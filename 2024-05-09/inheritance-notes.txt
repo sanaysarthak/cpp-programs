@@ -1,0 +1,23 @@
+base class is also known as derived class or super-class
+derived class 
+
+inheritance is the process, by which a class can acquire(reuse) the properties and methods of the parent class
+difference between access modifier is important
+
+in exam, types of inheritance can be asked, with diagram
+
+/* Syntax:
+class derived-class-name : access-modifier base-class-name
+{
+    // body of class
+};
+*/
+
+/* Example:
+class person {
+    // body of class
+};
+class doctor : protected person {
+    // body of class
+};
+*/
