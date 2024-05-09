@@ -4,21 +4,21 @@ using namespace std;
 class Person {
     public:
         void display1() {
-            cout << "\nPerson Class";
+            cout << "Person Class" << endl;
         }
 };
 
 class Student : public Person {
     public:
         void display2() {
-            cout << "\nStudent Class";
+            cout << "Student Class" << endl;
         }
 };
 
 class ITStudent : public Student {
     public:
         void display3() {
-            cout << "\nITStudent Class";
+            cout << "ITStudent Class" << endl;
         }
 };
 
