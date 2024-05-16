@@ -1,4 +1,7 @@
-// Constructor of Base class is Parameterized
+// child-const-parent-param-const.cpp
+// child-constructor-and-parent-parameterized-constructor.cpp
+
+// An example code for writing child (derived) class constructor when the parent (base) class is having parameterized constructor
 
 #include <iostream>
 using namespace std;
