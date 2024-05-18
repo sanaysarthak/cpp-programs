@@ -21,6 +21,6 @@ int main() {
     ptr = &dv1; // you can pass address of derived class object in base class type pointer
     ptr -> showBase();
     // ptr -> showDerived(); // error, cannot access derived class member function using base class type pointer
-    ((dv1*) ptr) -> showDerived(); // explicitly typecasting is required.
+    ((Derv1*) ptr) -> showDerived(); // explicitly typecasting is required.
     return 0;
 }
