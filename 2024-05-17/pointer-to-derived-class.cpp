@@ -1,5 +1,3 @@
-// complete this
-
 #include <iostream>
 using namespace std;
 
@@ -20,8 +18,9 @@ class Derv1 : public Base {
 int main() {
     Derv1 dv1;
     Base *ptr;
-    ptr = &dv1;
+    ptr = &dv1; // you can pass address of derived class object in base class type pointer
     ptr -> showBase();
-    ptr -> showDerived(); // error
+    // ptr -> showDerived(); // error, cannot access derived class member function using base class type pointer
+    ((dv1*) ptr) -> showDerived(); // explicitly typecasting is required.
     return 0;
 }
